@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600&display=swap" rel="stylesheet">
+        <title>Maks's website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width ">
+        
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__logo">
+                        Maks Kopyrin
+                    </div>
+                    <div class="icon icon_programmer">
+                        <img src="img/👨🏻‍💻.png" alt="programmer">
+                    </div>
+                    <div class="icon icon_message">
+                        <img src="img/pngwing.com.png" alt="message">
+                    </div>
+                    <div class="icon icon_lightning">
+                        <img src="img/⚡️.png" alt="lightning">
+                    </div>
+                    <div class="header__nav">
+                        <a href="#works" class="header__link">Работы</a>
+                        <a href="#about_me" class="header__link">Обо мне</a>
+                        <a href="#serv" class="header__link">Услуги</a>
+                        <a href="#summa" class="header__link">Процесс</a>
+                        <a href="#forms" class="header__link">Контакты</a>
+                    </div>
+                </div>
+                <!-- <div class="icon icon_programmer">
+                    <p class="icon__text">👩🏼‍💻</p>
+                </div> -->
+                <div class="wrapper__title">
+                    <h1 class="header__title">
+                        Сайты на Тильде, которые 
+                        убеждают и продают
+                    </h1>
+                </div>
+                <!-- <h1 class="header__title">
+                    Сайты на Тильде, которые 
+                    убеждают и продают
+                </h1> -->
+                <!-- <div class="icon icon_message">
+                    <p class="icon__text">💬</p>
+                </div> -->
+                <p class="header__text">
+                    Изучаем ваш бизнес. Узнаем, что важно клиентам, 
+                    как вызвать доверие и довести до заявки или покупки
+                </p>
+                <!-- <div class="icon icon_lightning">
+                    <p class="icon__text">⚡️</p>
+                </div> -->
+                <div class="header__buttons container__buttons">
+                    <button class="header__button header__button_telegram"><a href="https://t.me/kopyrinDis" style="text-decoration:none;color:white;" >Связаться в Телеграм</a></button>
+                    <button class="header__button header__button_video">▷ Видеопортфолио</button>
+                </div>
+            </div>
+        </header>
+        <section id="works" class="container">
+            <div class="section_button_down">
+                <button onclick="sort_all()" id="all" class="section_button_up_items_black" style="text-decoration: none;" >Все</фhref=>
+                <button onclick="sort_site()" id="site">Сайты под ключ</button>
+                <button onclick="sort_razrabotka()" id="razrabotka"  style="text-decoration: none;">Разработка</button>
+                <button onclick="sort_designe()" id="designe" style="text-decoration: none;">Дизайн</button>
+
+                <!-- <div id="hidden-element">Этот элемент будет скрываться и появляться.</div> -->
+            </div>
+            <div class="works__examples">
+                <!-- показываются все -->
+                <img id="rolex" class="works__img__big" src="img/rolex.png" alt="fashion_webpage">
+                <img id="steak" class="works__img__small" src="img/maso.png" alt="imphone" >
+                <img id="morgen"  class="works__img__small" src="img/morgen.png" alt="desktop_neon">
+                <img id="car" class="works__img__big" src="img/Mers.png" alt="desktop_neon">
+                <img id="house"  class="works__img__small" src="img/house.png" alt="desktop_neon">
+                <img id="kalan"  class="works__img__small" src="img/kalan.png" alt="desktop_neon">
+                <!-- ---------------------- -->
+                <!-- <img id="hidden-element-site" class="works__img__big" src="img/rolex.png" alt="fashion_webpage"> -->
+
+            </div>
+        </section>
+        <section id="about_me" class="container about_me__container">
+            <div class="icon icon_programmer">
+                <img src="img/👨🏻‍💻.png" alt="programmer">
+            </div>
+            <img src="img/ava.jpg" alt="my_avatar" class="about_me__img">
+            <div class="about_me__text_container">
+                <h2 class="h2 h2_about">
+                    Frontend developer & website designer
+                </h2>
+                <p>Меня зовут Макс. И я короче ну, да хз, просто делаю дизайн, учу frontend и учусь в НИУ ВШЭ
+                    <br>А ещё меня насилует "Компьютерная безопасность"
+                </p>
+                <div class="about_me__numbers">
+                    <div class="about_me__number__container">
+                        <p class="about_me__number">2</p>
+                        <p class="about_me__number_description">Сайтов запущено</p>
+                    </div>
+                    <div class="about_me__number__container">
+                        <p class="about_me__number">100%</p>
+                        <p class="about_me__number_description">Выполнено вовремя</p>
+                    </div>
+                    <div class="about_me__number__container">
+                        <p class="about_me__number">1</p>
+                        <p class="about_me__number_description">Год опыта</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="serv" class="services">
+            <div class="containerserv">
+                <h2 class="h2 h2_white h2_services">Услуги</h2>
+                <div class="services__cards">
+                    <div class="services__card">
+                        <div class="services__card__number">01</div>
+                        <p class="h5 h5_services">Сайты на тильде</p>
+                        <p class="text-paragraph text-paragraph_services">Изучаем ваш бизнес. Узнаем, что важно клиентам,
+                            как вызвать
+                            доверие и
+                            довести до заявки или покупки</p>
+                        <div class="services__card__line"></div>
+                        <p class="h4 h4_services">От 250000 ₽</p>
+                    </div>
+                    <div class="services__card">
+                        <p class="services__card__number">02</p>
+                        <p class="h5 h5_services">Веб-дизайн</p>
+                        <p class="text-paragraph text-paragraph_services">Если есть своя команда разработчиков или
+                            фрилансер.
+                            И нужен только дизайн сайта без разработки</p>
+                        <div class="services__card__line"></div>
+                        <p class="h4 h4_services">От 120000 ₽</p>
+                    </div>
+                    <div class="services__card">
+                        <p class="services__card__number">03</p>
+                        <p class="h5 h5_services">Арт-дирекшн</p>
+                        <p class="text-paragraph text-paragraph_services">Проконтролирую ваш отдел дизайна, выявлю
+                            недочеты в дизайне и процессах работы в команде. Помогу наладить коммуникацию</p>
+                        <div class="services__card__line"></div>
+                        <p class="h4 h4_services">От 70000 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="summa" class = "containersum container" >
+            <div class="serv">
+                <!-- <div class="icon icon_programmer progr">
+                    <img src="img/👨🏻‍💻.png" alt="programmer">
+                </div>
+                <div class="icon icon_lightning light">
+                    <img src="img/⏱️.png" alt="lightning">
+                </div> -->
+                <div class="form_title">Подсчет стоимости</div>
+            
+                <div class="formReg">
+                    <div class="servicesForm">
+                        <form action="">
+                            <select class="setting_firstForm" name="Тип работы" id="calculating__type" >
+                                <option  value="0" label="&nbsp Тип работы"></option>
+                                <option  value="1" label="&nbspПромышленный дизайн"></option>
+                                <option  value="2" label="&nbsp Книжный дизайн"></option>
+                                <option  value="3" label="&nbsp Световой дизайн"></option>
+                                <option value="4" label="&nbsp Дизайн архитектурной среды"></option>
+                                <option value="5" label="&nbsp Ландшафтный дизайн"></option>
+                            </select>
+                        </form>
+                        
+                        <form action="">
+                            <select class="setting_secondForm name="Тип работы" id="calculating__size" >
+                                <option  value="0" label="&nbsp Насколько большой объем ?"></option>
+                                <option  value="1" label="&nbsp 10 кв.м"></option>
+                                <option  value="2" label="&nbsp 20 кв.м"></option>
+                                <option  value="3" label="&nbsp 30 кв.м"></option>
+                                <option  value="4" label="&nbsp 40 кв.м"></option>
+                                <option  value="5" label="&nbsp 50 кв.м"></option>
+
+                            </select>
+                        </form>
+                        
+                        <div class="text_form" ><input type="checkbox" name="a" value="1417"> Да, я слышал про осеннюю школу. <br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Интересно а после нее будет егэ?</div>
+                        <!-- <div class="button_form">Рассчитать стоимость</div> -->
+                        <!-- <a href="#" class="formButton" >Рассчитать стоимость</a> -->
+                        <!-- <input type="submit" class="formButton" value="Рассчитать стоимость"> -->
+                        <button onclick="ShowCalculating();calcular()" class="formButton btn" >Рассчитать стоимость</button>
+                        
+                        <!-- <input type="submit" class="send" value="Отправить сообщение"> -->
+                        
+                        
+                    </div>
+                    <!-- <div id="calculating__price"></div> -->
+                </div>
+            </div>
+        </section>
+        <div class="resultats content hidden">
+            <div class="containerserv resultats__adapt">
+                <div class="services__cards results__cards">
+                    <div class="services__card resultats__cards">
+                        <!-- <p class="services__card__number">03</p> -->
+                        <p class="h5 h5_services h5__results">Примерный подсчет:</p>
+                        <p class="text-paragraph text-paragraph_services results__p">Стоимость</p>
+                        <div id="calculating__price" class="h4 h4_services results__price results__p"></div>
+                        <p class="text-paragraph text-paragraph_services">Примерный сроки</p>
+                        <p class="h4 h4_services results__price">14 рабочих дней</p>
+                        <main class="page-content">
+                            <button onclick="toggleModal()"type="button" class="buttonClick results__click" >Обсудить проект</button>
+                        </main>
+                        
+                        
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section  >
+            <div class="faq_block ">
+                <div class="faq__title">Вопрос-ответ</div>
+                <div class="wrapper">
+                    <div class="wrapper__item">
+                        <div class="question">Делаете только дизайн?</div>
+                        <div class="answer" style="display: none;" >Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины. <br><br>
+
+                        А ещё:<br>
+                        <ul class="txt">
+                            <li>Не нужен программист, тильдой легко управлять</li>
+                            <li>Можно менять контент самому без помощи специалиста</li>
+                            <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                            <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                            <li>Адекватные цены тарифов</li>
+                        </ul></div>
+                    </div>
+
+                    <div class="wrapper__item">
+                        <div class="question">Почему тильда</div>
+                        <div class="answer" style="display: none;" >Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.<br><br>
+
+                            А еще: <br>
+                            <ul class="txt">
+                                <li>Не нужен программист, тильдой легко управлять</li>
+                                <li>Можно менять контент самому без помощи специалиста</li>
+                                <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                                <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                                <li>Адекватные цены тарифов</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="wrapper__item">
+                        <div class="question">Какие сроки?</div>
+                        <div class="answer" style="display: none;">Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.<br><br>
+
+                            А еще: <br>
+                            <ul class="txt">
+                                <li>Не нужен программист, тильдой легко управлять</li>
+                                <li>Можно менять контент самому без помощи специалиста</li>
+                                <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                                <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                                <li>Адекватные цены тарифов</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="wrapper__item">
+                        <div class="question">Как происходит оплата?</div>
+                        <div class="answer" style="display: none;">Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.<br><br>
+
+                            А еще: <br>
+                            <ul class="txt">
+                                <li>Не нужен программист, тильдой легко управлять</li>
+                                <li>Можно менять контент самому без помощи специалиста</li>
+                                <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                                <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                                <li>Адекватные цены тарифов</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="wrapper__item">
+                        <div class="question">Сколько правок можно внести?</div>
+                        <div class="answer" style="display: none;">Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.<br><br>
+
+                            А еще: <br>
+                            <ul class="txt">
+                                <li>Не нужен программист, тильдой легко управлять</li>
+                                <li>Можно менять контент самому без помощи специалиста</li>
+                                <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                                <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                                <li>Адекватные цены тарифов</li>
+                            </ul></div>
+                    </div>
+
+                    <div class="wrapper__item">
+                        <div class="question">Работаете со срочными проектами?</div>
+                        <div class="answer" style="display: none;">Тильда уже давно перестала быть просто конструктором. Сейчас на платформе разрабатывают уникальные лендинги и даже небольшие интернет магазины.<br><br>
+                            А еще: <br>
+                            <ul class="txt">
+                                <li>Не нужен программист, тильдой легко управлять</li>
+                                <li>Можно менять контент самому без помощи специалиста</li>
+                                <li>Многие делают сайты именно на тильде. Например сбер, яндекс, и тд</li>
+                                <li>Можно подключить разные сервисы, формы (телеграм, мейлчамп, crm)</li>
+                                <li>Адекватные цены тарифов</li>
+                            </ul></div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js" ></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+            <script>
+                $('.question').click(function(event){
+                    $(this).toggleClass('active').next().slideToggle(300);
+                });
+            </script> 
+        </section>
+        <div class="container"> 
+            <div class="container_form" id="box">
+                <div class="form">
+                    <h2 id="forms" class="mainText">Оставьте заявку</h2>
+                    <p class="secontText">Я сам напишу вам, и сообщу все детали</p>
+
+                    <div class="form_items">
+                        <div class="formInput">
+                        <span><i class="fas fa-user"></i></span>
+                        <input type="text" placeholder="Имя" >
+                    </div>
+                    <div class="formInput">
+                        <span><i class="fas fa-mail"></i></span>
+                        <input type="text" placeholder="Почта" >
+                    </div>
+                    <form action="">
+                        <select class="formInput serv_select" name="Тип услуги" id="" >
+                            <option  value="" label="Тип услуги"></option>
+                            <option  value="" label="Промышленный дизайн"></option>
+                            <option  value="" label="Книжный дизайн"></option>
+                            <option  value="" label="Световой дизайн"></option>
+                            <option  value="" label="Написать сайт"></option>
+                            <option  value="" label="Сделать дизайн для landing page"></option>
+                            <option  value="" label="Ландшафтный дизайн"></option>
+                        </select>
+                    </form>
+                    <div class="formInput comment">
+                        <span><i class="fas fa-comment"></i></span>
+                        <div class="comment_settings">
+                            <input type="text" placeholder="Комментарий" >
+                        </div>
+                        <!-- <input type="text" placeholder="Комментарий" > -->
+                    </div>
+                    <!-- <input type="submit" class="send" value="Отправить сообщение"> -->
+                    <main class="page-content">
+                        <button onclick="toggleModal()"type="button" class="buttonClick" >Отправить сообщение</button>
+                    </main>
+                    <div class="background"onclick="toggleModal()"></div>
+                    <div class="modal">
+                        <div class="modal-content">
+                            Ваша заявка отправлена, скоро с вами свяжется сотрудник
+                        </div>
+                    </div>
+                    <script>
+                        const toggleModal=()=>document.body.classList.toggle("open");
+                    </script>
+                    </div>                            
+                </div> 
+            </div>
+
+            <!-- FLEX:
+            display:flex - поставить блоки в 1 строку
+            flex-direction:row - направление flex'ов - строка
+            justify-content:center - расположение по главной оси в центре
+                       space-between - поставить во всю ширину с одинаковым расстоянием между блоками
+            align-items:center - расположение элементов по поперечной оси
+            align-self: start - расположить в самый верхнее
+            order: number - прописывается порядок
+
+            POSITION:
+            position: relative - элемент будет считаться родительским
+            position:absolute - элемент уедет сразу в начало и потом прописываем left/right/top/botton для расположения
+
+            transform:scale() - масштабирование
+            transform:rotate() - повернуть на любое кол-во градусов
+            transform:translate - перемешение по оси X или Y -->
+
+
+
+            
+        </div>
+        
+        
+        
+           
+        </header>
+        <script src="js/script.js" ></script>
+    </body>
+
+    
+</html>
